@@ -1,0 +1,66 @@
+@media(max-width: 375px) {
+
+    body{
+        background-image: url(../images/bg-mobile.svg);
+    }
+    .header {
+        margin: 33px 0 0 35px;;
+    }
+
+    .header .logo{
+        width: 127px;
+    }
+
+    .container {
+        flex-direction: column;
+        margin: 15% 10% 17% 10%;
+    }
+
+    .container .pages img {
+        max-width: 100%;
+    }
+
+    .info {
+        margin-top: 30px;
+    }
+
+    .info .title {
+        margin: 3px 8px 0 8px;
+        text-align: center;
+        padding: 0;
+        font-size: 1.5rem;
+    }
+
+    .info .text {
+        text-align: center;
+        margin-top: 15px;
+        padding: 0;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .info .register {
+        margin: 24px auto 0;
+        padding-top: 2px;
+        font-size: 0.8rem;
+        min-height: 2.5rem;
+        width: 12.5rem;
+    }
+
+    .social {
+        margin: 0 auto;
+        gap: 8px;
+    }
+
+    .social .link {
+        width: 28px;
+        height: 28px;
+        padding-top: 4px;
+    }
+
+    .fa-facebook-f, 
+    .fa-twitter, 
+    .fa-instagram {
+    font-size: 16px;
+    }
+}
